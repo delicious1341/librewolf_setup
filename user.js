@@ -5,8 +5,8 @@ user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("browser.toolbars.bookmarks.visibility", "never");
 
 //
-user_pref("privacy.resistFingerprinting","true");
+user_pref("privacy.resistFingerprinting","false");
 user_pref("privacy.fingerprintingProtection","true");
-//user_pref("privacy.fingerprintingProtection.overrides","+AllTargets,-CSSPrefersColorScheme");
+user_pref("privacy.fingerprintingProtection.overrides","+AllTargets,-CSSPrefersColorScheme");
 user_pref("ui.systemUsesDarkTheme", 1);
 user_pref("browser.in-content.dark-mode", true);
