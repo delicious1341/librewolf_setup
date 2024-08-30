@@ -4,6 +4,9 @@ user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 // Never show bookmarks bar
 user_pref("browser.toolbars.bookmarks.visibility", "never");
 
+// Set Firefox Dark Theme
+user_pref("extensions.activeThemeID", "firefox-compact-dark@mozilla.org");
+
 // Allow fingerprinting to request dark mode. Set dark mode manually after Ctrl+Shift+O.
 user_pref("privacy.resistFingerprinting", false);
 user_pref("privacy.fingerprintingProtection", true);
