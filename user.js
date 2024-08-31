@@ -15,8 +15,11 @@ user_pref("extensions.activeThemeID", "firefox-compact-dark@mozilla.org");
 user_pref("browser.theme.content-theme", 0);
 user_pref("browser.theme.toolbar-theme", 0);
 
+// Manually must be the only option because themes are treated like addons
 // user_pref("extensions.webextensions.uuids", // Append:
-//\"firefox-compact-dark@mozilla.org\":\"eb7daf1e-4ae4-4594-9c7c-578daa622437\" 
+//\"firefox-compact-dark@mozilla.org\":\"eb7daf1e-4ae4-4594-9c7c-578daa622437\"
+// Append similar lines to ./extension-prefs.json
+
 
 // Allow fingerprinting to request dark mode. Set dark mode manually after Ctrl+Shift+O.
 user_pref("privacy.resistFingerprinting", false);
