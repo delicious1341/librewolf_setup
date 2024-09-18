@@ -2,7 +2,7 @@
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 
 // Warn on closing browser with multiple tabs
-user_pref("broswer.tabs.warnOnClose", true);
+user_pref("browser.tabs.warnOnClose", true);
 
 // Never show bookmarks bar
 user_pref("browser.toolbars.bookmarks.visibility", "never");
